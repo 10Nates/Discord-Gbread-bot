@@ -8,5 +8,8 @@
   },
   "author": "Nate B",
   "license": "ISC"
+  "dependencies": {
+  "discord.js"
+}
   
 }
