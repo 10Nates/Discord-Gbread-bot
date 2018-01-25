@@ -1,5 +1,4 @@
 //cd documents\code\Discord Bots\Discord Gbread bot, then node .
-const config = require('./Gbreadbot.json')
 const Discord = require('discord.js');
 const bot = new Discord.Client(); 
 
@@ -75,4 +74,4 @@ if(command === '!gboverride') {
 });
 
 
-bot.login('NDA0MDMzNjE4NjU5NTA4MjQ0.DUQAsQ.Oei-bn0WA1q5g1FsANxiziHXKHA');
+bot.login(process.env.TOKEN);
