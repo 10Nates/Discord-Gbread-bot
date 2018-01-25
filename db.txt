@@ -1,0 +1,10 @@
+404033618659508244
+2KCm0EKtVUVqtNVSrpznuWnJSOy5rBJp
+bot
+Username: Garlic Bread Bot#8356
+404033618659508244
+Token:NDA0MDMzNjE4NjU5NTA4MjQ0.DUP9Vw.A3FOVksfov4BqyQgGSdT8NMlMv8
+
+https://discordapp.com/api/oauth2/authorize?client_id=404033618659508244&permissions=19456&scope=bot
+
+!gb for 1 garlic bread, !gbspam for lots of garlic bread.

@@ -1,0 +1,13 @@
+{
+  "name": "gbbot",
+  "version": "1.0.0",
+  "description": "A garlic bread bot",
+  "main": "index.js",
+  "scripts": {
+    "test": " "
+  },
+  "author": "Nate B",
+  "license": "ISC",
+  "token": "NDA0MDMzNjE4NjU5NTA4MjQ0.DUQAsQ.Oei-bn0WA1q5g1FsANxiziHXKHA"
+  
+}
