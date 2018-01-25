@@ -9,7 +9,7 @@
   "author": "Nate B",
   "license": "ISC"
   "dependencies": {
-  "discord.js"
+  "discord.js": "11.3.0"
 }
   
 }
