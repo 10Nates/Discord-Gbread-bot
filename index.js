@@ -74,4 +74,4 @@ if(command === '!gboverride') {
 });
 
 
-bot.login(process.env.NDA0MDMzNjE4NjU5NTA4MjQ0.DUP9Vw.A3FOVksfov4BqyQgGSdT8NMlMv8);
+bot.login(process.env.Token);
