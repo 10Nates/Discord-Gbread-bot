@@ -1,2 +1,2 @@
 # Discord-Gbread-bot
-Bot code 
+Bot code + Website code
