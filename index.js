@@ -2,12 +2,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client(); 
 
-<html>
-    <body>
-    href="index.html"
-    </body>
-</html>
-
 bot.on('message', (message) => {
 const args = message.content.slice().trim().split(/ +/g);
 const command = args.shift().toLowerCase();
