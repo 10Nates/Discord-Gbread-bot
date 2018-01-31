@@ -71,11 +71,12 @@ if(command === '!gboverride') {
     }
 }
 
-    if(command === '!gbspamphrase') {
-         for (var counter = 1; counter <= args[0]; counter++) {
-             message.channel.send(args);
+if(command === '!gbspamphrase') {
+    for (var counter = 1; counter <= args[0]; counter++) {
+        message.channel.send(args);
     }
-        
+} 
+    
 });
 
 
