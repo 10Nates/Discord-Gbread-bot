@@ -71,8 +71,8 @@ if(command === '!gboverride') {
     }
 }
 
-    if(command === 'Give Nate Dev!') {
-        message.channel.send('Give Nate Dev!');
+    if(command === 'Give_Nate_Dev!') {
+        message.channel.send('Give_Nate_Dev!');
     }
         
 });
