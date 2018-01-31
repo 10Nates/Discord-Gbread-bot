@@ -70,12 +70,6 @@ if(command === '!gboverride') {
         bot.channels.get('403706815151603724').send("&{args} also Owen's a loser lol");
     }
 }
-
-if(command === '!gbspamphrase') {
-    for (var counter = 1; counter <= args[0]; counter++) {
-        message.channel.send(args);
-    }
-} 
     
 });
 
