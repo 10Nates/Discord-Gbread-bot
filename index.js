@@ -71,8 +71,9 @@ if(command === '!gboverride') {
     }
 }
 
-    if(command === 'Give_Nate_Dev!') {
-        message.channel.send('Give_Nate_Dev!');
+    if(command === '!gbspamphrase') {
+         for (var counter = 1; counter <= args[0]; counter++) {
+             message.channel.send(args);
     }
         
 });
