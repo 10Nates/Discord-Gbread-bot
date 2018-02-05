@@ -10,6 +10,7 @@ const g2 = 'https://scm-assets.constant.co/scm/unilever/1db348501df1238f872479d2
 const g3 = 'http://emerils.com/sites/default/files/10_16_08_0034_f.jpg '
 const g4 = 'https://pbs.twimg.com/media/DB_ZWF4W0AIuFR0.jpg:large '
 const g5 = 'https://i.imgur.com/gVmXJvT.jpg '
+const gbdog = 'https://i.imgur.com/Z8Laxh1.png '
 var result = [g1, g2, g3, g4, g5][Math.floor(Math.random() * 5)]
 
 if(command === '!gb') {
@@ -69,6 +70,10 @@ if(command === '!gboverride') {
     if(message.author.id === '186227992966463488') {
         bot.channels.get('403706815151603724').send("&{args} also Owen's a loser lol");
     }
+}
+    
+if(command === '!gbdog') {
+    message.channel.send(gbdog);
 }
     
 });
