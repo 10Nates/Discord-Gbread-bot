@@ -54,7 +54,7 @@ if(command === '!gbhelp') {
     message.channel.send('-"!gb" for one garlic bread, "!gbspam [amount]" for plural amounts of garlic bread.')
     message.channel.send('-"!gb random" for a random image of garlic bread, "!gbspam random [amount]" for multiple random images of garlic bread.')
     message.channel.send('-"!gbaddlink" for a link to add me to a server, "!gbhelp" for command help.')
-    message.channel.send('-"!bb" is the command for :b:arlic :b:read.')
+    message.channel.send('-"!bb" is the command for :b:arlic :b:read, "!gbdog" is for a doggo with some garlic bread.')
 }
 
 if(command === '!gboverride') {
