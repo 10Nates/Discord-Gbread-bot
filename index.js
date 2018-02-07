@@ -33,7 +33,7 @@ if(command === '!gbspam') {
            }
         }
    if(args[0] !== 'random') {
-        for (var counter = 1; counter <= args[0] <= 150; counter++) {
+        for (var counter = 1; counter <= args[0]; counter++) {
             message.channel.send(g1);
         }
     }
