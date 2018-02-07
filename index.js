@@ -26,8 +26,10 @@ if(command === '!gb') {
 
 if(command === '!gbspam') {
     console.log(message.content, '-', message.author.username);
-    if (args[0] > 3)
-        args[0] = 3;
+    if (args[0] > 200) {
+        message.channel.send('Max Amount is 200');
+        args[0] = 200;
+    }
     if(args[0] === 'random') {
          for (var counter = 1; counter <= args[1]; counter++) {
             var result = [g1, g2, g3, g4, g5][Math.floor(Math.random() * 5)]
