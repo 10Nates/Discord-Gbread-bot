@@ -71,7 +71,8 @@ if(command === '!gboverride') {
     if(message.author.id === '186507006008360960') {
         msovrdpre = message.content.replace(/!gboverride/g,'');
         msovrd = msovrdpre.replace(args[0],''); 
-        bot.channels.get(args[0]).send(msovrd);
+        chanid = args[0].replace(/<#|>/g,'');
+        bot.channels.get(chanid).send(msovrd);
     } else {
         message.author.send('Haha screw you lol.');
     }
